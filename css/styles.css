@@ -1,0 +1,88 @@
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/WorkSans-Black.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/WorkSans-Light.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/WorkSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/WorkSans-Bold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: Satisfy;
+  src: url(../fonts/Satisfy-Regular.ttf);
+  font-weight: normal;
+}
+
+i
+{
+	font-weight: 600;
+	font-style: normal;
+}
+
+h1
+{
+	font-family: WorkSans;
+	font-weight: 800;
+	font-size: 5em;
+}
+
+h2
+{
+	font-family: WorkSans;
+	font-weight: 400;
+	color: rgb(183, 0, 213);
+	margin-bottom: 1em;
+}
+
+p, ul, ol, button
+{
+	font-family: WorkSans;
+	font-weight: 400;
+}
+
+.lead { font-size: 3em; }
+.intro { margin-bottom: 2em; }
+
+.intro p
+{
+	font-size: 1.5em;
+	font-family: Satisfy, cursive;
+}
+
+blockquote
+{
+	border-bottom: 2px solid grey;
+	padding-bottom: 1em;
+}
+
+#testimonials blockquote p
+{
+	font-family: serif;
+	font-size: .9em;
+}
+
+blockquote:first-of-type { margin-top: 0; }
+.highlight { color: rgb(183, 0, 213); }
+.herzlia { background-color: #0054A6; }
+.pearson { background-color: #9D1348; }
+#author, #speechwriter, #language-consultant, #clients { background-color: rgb(217, 230, 241); }
+#editor, #indexing, #contact { background-color: rgb(242, 236, 221); }
+#speechwriter { }
+#indexing { }
+#language-consultant { }
+#contact { }
+#clients { }
+.media-object { width: 100px; }
+.w10 img { max-width: 100px; }
+.clearfix {clear: both; margin-top: 1em;}
